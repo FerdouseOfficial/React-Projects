@@ -9,16 +9,4 @@ const App = () => {
   )
 }
 
-const User = (props) => {
-  return(
-    <div>
-      <h2> {props.name} </h2>
-      <p> {props.age} </p>
-      <p> {props.isMarried} </p>
-      <p> {hobby} </p>
-    </div>
-  )
-}
-
-
 export default App
